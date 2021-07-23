@@ -1,4 +1,5 @@
 # shopping_cart.py
+pip install -r requirements.txt
 
 products = [
     {"id":1, "name": "Chocolate Sandwich Cookies", "department": "snacks", "aisle": "cookies cakes", "price": 3.50},
