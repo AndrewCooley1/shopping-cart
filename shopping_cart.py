@@ -48,8 +48,10 @@ print(products)
 input("Please input a product identifier:")
 
 selected_id = input("Please input a product identifier: ") #string version
-matching_product = [p for p in products if p["id"] == selected_id]
+matching_product = [p for p in products if str(p["id"]) == str(selected_id)]
 print(matching_product)
+print(type(matching_product))
+
 
 
 #Info output/display
