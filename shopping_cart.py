@@ -95,11 +95,11 @@ for selected_id in selected_ids:
 print("__________________")
 print("")
 
-tax = .0875 * total_price
-net_total = total_price * tax
+taxx = .0875 * total_price
+net_total = total_price * taxx
 
 print( "Subtotal: " +to_usd(total_price))
-print("Tax: " + to_usd(sales_tax))
+print("Tax: " + to_usd(taxx))
 print("Total: " + to_usd(net_total))
 
 print("")
