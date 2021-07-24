@@ -1,5 +1,6 @@
 # shopping_cart.py
 
+from datetime import datetime
 
 products = [
     {"id":1, "name": "Chocolate Sandwich Cookies", "department": "snacks", "aisle": "cookies cakes", "price": 3.50},
@@ -65,7 +66,22 @@ for selected_id in selected_ids:
 print("TOTAL PRICE: " + str(total_price)) #format as USD
 
 
+print("")
+print("______________")
+print("Dairy Barn Grocery")
+print("______________")
+print("")
 
+print("Web: "www.dairybarn.com")
+print("(631) 427-1420")
+print("")
+print("________________")
+
+print()
+now = datetime.now()
+print("Current Checkout Time:", now.strftime("%b %d %Y %H:%M:%S %p"))
+print("")
+print("_________________")
 
 #A grocery store name of your choice
 #A grocery store phone number and/or website URL and/or address of choice
