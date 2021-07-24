@@ -7,7 +7,7 @@ Welcome, you will need to execute the following items in order to utalize the Sh
 (https://github.com/AndrewCooley1/shopping-cart.git)
 
 ## Installation
-Please download or fork the following(https://github.com/prof-rossetti/intro-to-python/tree/main/projects/shopping-cart), and then move into the project repository. 
+Please download or fork the following (https://github.com/prof-rossetti/intro-to-python/tree/main/projects/shopping-cart), and then move into the project repository. 
 
 
 ## Evironment Setup
@@ -23,8 +23,12 @@ After activating the virtual environment, install package dependencies (see the 
 
 pip install -r requirements.txt
 
+## Tax
 
-## To Run the Program
+The default tax stores in the .env file is .0875. This can be adjusted to any local tax rate if you so chose by updating the .env file. 
+
+
+## To Run the Program, Execute the following:
 
 Python Shopping_cart.py
 
