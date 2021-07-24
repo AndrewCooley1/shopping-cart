@@ -45,7 +45,7 @@ print(products)
 
 #Info capture
 
-input("Please input a product identifier:")
+#input("Please input a product identifier:")
 
 selected_id = input("Please input a product identifier: ") #string version
 matching_product = [p for p in products if str(p["id"]) == str(selected_id)]
