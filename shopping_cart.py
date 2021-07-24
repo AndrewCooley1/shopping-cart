@@ -47,6 +47,10 @@ print(products)
 
 input("Please input a product identifier:")
 
+selected_id = input("Please input a product identifier: ") #string version
+print(selected_id)
+print(type(selected_id))
+
 
 
 #Info output/display
