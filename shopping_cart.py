@@ -72,7 +72,7 @@ print("Dairy Barn Grocery")
 print("______________")
 print("")
 
-print("Web: "www.dairybarn.com")
+print("Web: www.dairybarn.com")
 print("(631) 427-1420")
 print("")
 print("________________")
@@ -82,6 +82,34 @@ now = datetime.now()
 print("Current Checkout Time:", now.strftime("%b %d %Y %H:%M:%S %p"))
 print("")
 print("_________________")
+
+print("Selected Products:")
+print("_______________")
+
+for selected_id in selected_ids:
+        matching_products = [p for p in products if str(p["id"]) == str(selected_id)]
+        matching_product = matching_products[0]
+        total_price = total_price + matching_product["price"]
+        print("..." + matching_product["name"] + " " + to_usd(matching_product["price"]))
+
+print("__________________")
+print("")
+
+tax = .0875 * total_price
+net_total = total_price * tax
+
+print( "Subtotal: " +to_usd(total_price))
+print("Tax: " + to_usd(sales_tax))
+print("Total: " + to_usd(net_total))
+
+print("")
+print("________________")
+print("Thank you so shopping today! Come again soon.")
+print("________________")
+print("")
+print("")
+
+
 
 #A grocery store name of your choice
 #A grocery store phone number and/or website URL and/or address of choice
