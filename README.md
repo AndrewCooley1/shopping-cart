@@ -22,7 +22,7 @@ Please then activate this virtual environment
 
 conda activate shopping_env
 
-After activating the virtual environment, install package dependencies (see the "requirements.txt" file):
+After activating the virtual environment, install package dependencies ("requirements.txt" file):
 
 pip install -r requirements.txt
 
