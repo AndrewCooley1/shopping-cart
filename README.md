@@ -12,13 +12,13 @@ Welcome, you will need to execute the following items in order to utalize the Sh
 Please download or fork the following (https://github.com/prof-rossetti/intro-to-python/tree/main/projects/shopping-cart), and then move into the project repository. 
 
 
-## Evironment Setup:
+## Environment Setup:
 
 Use Anaconda to create and activate a new virtual environment, perhaps called "Shopping_env:
 
 conda create -n shopping_env python=3.8 
 
-Please then activate this virtual environment
+Please then activate this virtual environment.
 
 conda activate shopping_env
 
