@@ -56,8 +56,6 @@ while True:
 #Info output/display
 
 
-print("TOTAL PRICE: " + str(total_price))
-
 #viewable Aesthetics for program
 print("______________")
 print("Dairy Barn Grocery")
