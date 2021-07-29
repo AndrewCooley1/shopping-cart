@@ -33,6 +33,7 @@ products = [
     
 def to_usd(my_price): 
     return f"${my_price:,.2f}" #> $12,000.71
+    #given by professor
 
 
 # TODO: write some Python code here to produce the desired output
@@ -51,7 +52,7 @@ while True:
                 selected_ids.append(selected_id) 
                 
         except (IndexError, ValueError): #https://airbrake.io/blog/python/python-indexerror
-                print("Invalid product identifier. Please try again:")   
+                print("Invalid product identifier. Please input a valid ID:")   
                 #section in case user types in code not included from 1-20. Same code as below but modified so that the subtotal would not count the products twice.      
         if selected_id == "DONE": 
                 break  
@@ -78,6 +79,7 @@ for selected_id in selected_ids:
         total_price = total_price + matching_product["price"]
         print("..." + matching_product["name"] + " " + to_usd(matching_product["price"]))
         #based on Professor Rossetti's Guided Screencast (https://www.youtube.com/watch?v=3BaGb-1cIr0)
+        #similar code to above but with the Total_price line added.
 
 print("__________________")
 
