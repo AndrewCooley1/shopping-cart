@@ -29,7 +29,7 @@ products = [
     {"id":20, "name": "Pomegranate Cranberry & Aloe Vera Enrich Drink", "department": "beverages", "aisle": "juice nectars", "price": 4.25}
 ] # based on data from Instacart: https://www.instacart.com/datasets/grocery-shopping-2017
   
-  """
+"""
     Converts a numeric value to usd-formatted string, for printing and display purposes.
 
     Param: my_price (int or float) like 4000.444444
