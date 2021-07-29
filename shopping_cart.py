@@ -40,7 +40,7 @@ def to_usd(my_price):
 
 #Info capture
 
-total_price = 0
+#total_price = 0
 selected_ids=[]
 
 while True:
