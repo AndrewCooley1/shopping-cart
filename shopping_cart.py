@@ -40,7 +40,7 @@ def to_usd(my_price):
 
 #Info capture
 
-#total_price = 0
+total_price = 0
 selected_ids=[]
 
 while True:
@@ -49,6 +49,7 @@ while True:
         break
     else:
         selected_ids.append(selected_id)
+
         #based on Professor Rossetti's Guided Screencast (https://www.youtube.com/watch?v=3BaGb-1cIr0)
 
 
