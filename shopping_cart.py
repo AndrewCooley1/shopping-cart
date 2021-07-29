@@ -44,12 +44,17 @@ total_price = 0
 selected_ids=[]
 
 while True:
-    selected_id = input("Please input a product identifier: ") #string version
-    if selected_id == "DONE":
-        break
-    else:
-        selected_ids.append(selected_id)
-
+        try:
+                selected_id = input("Please input a product identifier: ")
+                matching_products = [p for p in products if str(p["id"]) == str(selected_id)]
+                matching_product = matching_products[0] 
+                selected_ids.append(selected_id) 
+                
+        except (IndexError, ValueError): #https://airbrake.io/blog/python/python-indexerror
+                print("Invalid product identifier. Please try again:")   
+                #section in case user types in code not included from 1-20. Same code as below but modified so that the subtotal would not count the products twice.      
+        if selected_id == "DONE": 
+                break  
         #based on Professor Rossetti's Guided Screencast (https://www.youtube.com/watch?v=3BaGb-1cIr0)
 
 
