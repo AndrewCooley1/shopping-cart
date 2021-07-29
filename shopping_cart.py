@@ -55,7 +55,6 @@ while True:
 
 #Info output/display
 
-
 #viewable Aesthetics for program
 print("______________")
 print("Dairy Barn Grocery")
@@ -64,7 +63,7 @@ print("Website: www.dairybarn.com")
 print("Phone:(631)427-1420")
 print("________________")
 now = datetime.now() #https://www.geeksforgeeks.org/get-current-date-and-time-using-python/
-print("Current Checkout Time:", now.strftime("%b %d %Y %H:%M:%S %p"))
+print("Current Checkout Time:", now.strftime("%b %d %Y %H:%M %p"))
 print("_________________")
 print("Selected Products:")
 
